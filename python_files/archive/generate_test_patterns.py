@@ -11,8 +11,8 @@ import pandas as pd
 import struct
 
 # ===== 設定 =====
-MEASUREMENTS_CSV = '/Users/itoakane/Research/SEP_raw_temp/SEP_processed/measurements.csv'
-OUTPUT_DIR = '/Users/itoakane/Research/SEP_raw_generated/test_patterns'
+MEASUREMENTS_CSV = 'SEP_raw_temp/SEP_processed/measurements.csv'
+OUTPUT_DIR = 'SEP_raw_generated/test_patterns'
 SAMPLING_RATE = 2500
 N_CHANNELS = 6
 CHANNEL_NAMES = ['C3', 'CP1', 'CP3', 'CP5', 'P3', 'EOG']

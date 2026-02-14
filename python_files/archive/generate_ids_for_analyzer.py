@@ -104,11 +104,11 @@ import traceback
 from datetime import datetime
 
 # Configuration - Retaining V28 High-Appearance Settings
-CSV_PATH = '/Users/itoakane/Research/mne/SEP_processed/measurements.csv'
+CSV_PATH = 'mne/SEP_processed/measurements.csv'
 # 参照元 rawdata（読み取りのみ）
-RAW_DATA_DIR = '/Users/itoakane/Research codex/Analyzer/rawdata'
+RAW_DATA_DIR = 'Analyzer/rawdata'
 # 生成ファイルは Analyzer 直下へ配置
-OUTPUT_DIR = '/Users/itoakane/Research codex/Analyzer'
+OUTPUT_DIR = 'Analyzer'
 SAMPLING_RATE = 2500  # Hz
 SAMPLING_RATE = 2500  # Hz
 # V8.34: Extended Duration to 2.6M samples (1040s) to fit 1500 stimuli with ITI 1400

@@ -2,8 +2,8 @@ import numpy as np
 import os
 
 # Paths
-RAW_PATH = '/Users/itoakane/Research/Analyzer/rawdata/id0010001.eeg'
-FILT_PATH = '/Users/itoakane/Research/Analyzer/id0010001_Filters_3-1000_50_US.eeg'
+RAW_PATH = 'Analyzer/rawdata/id0010001.eeg'
+FILT_PATH = 'Analyzer/id0010001_Filters_3-1000_50_US.eeg'
 
 def peek_data(path, n_ch, name):
     print(f"--- {name} ---")

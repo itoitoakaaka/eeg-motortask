@@ -8,9 +8,9 @@ import pandas as pd
 import sys
 
 # Settings
-RAW_DIR = '/Users/itoakane/Research/SEP_rawdata_new'
-EXCEL_PATH = '/Users/itoakane/Research/task/task.xlsx'  
-OUTPUT_DIR = '/Users/itoakane/Research/SEP_rawdata_new'
+RAW_DIR = 'SEP_rawdata_new'
+EXCEL_PATH = 'task/task.xlsx'  
+OUTPUT_DIR = 'SEP_rawdata_new'
 TIME_WINDOW_PLOT = (-20, 100) 
 PLOT_X_LIM = (-10, 100) 
 Y_LIM = (-5, 5)

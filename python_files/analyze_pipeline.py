@@ -5,7 +5,7 @@ import re
 # Logic Analysis Configuration
 ID = 'id0010001'
 COND = 'A1'
-BASE_DIR = '/Users/itoakane/Research/Analyzer'
+BASE_DIR = 'Analyzer'
 
 # File Paths
 P_EPOCH  = os.path.join(BASE_DIR, f'{ID}_{COND}_epoch_US')

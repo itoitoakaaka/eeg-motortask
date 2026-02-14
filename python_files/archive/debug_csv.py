@@ -1,5 +1,5 @@
 import pandas as pd
-CSV_PATH = '/Users/itoakane/Research/mne/SEP_processed/measurements.csv'
+CSV_PATH = 'mne/SEP_processed/measurements.csv'
 df = pd.read_csv(CSV_PATH)
 row = df[df['file_id'] == 'id0010001']
 print(f"sp_pp_amp: {float(row['sp_pp_amp'].iloc[0])}")

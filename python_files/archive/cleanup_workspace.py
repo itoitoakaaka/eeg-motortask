@@ -31,7 +31,7 @@ import glob
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) # python_files/../ -> Research/
 if os.path.basename(ROOT_DIR) != 'Research':
     # Fallback if run from elsewhere
-    ROOT_DIR = '/Users/itoakane/Research'
+    ROOT_DIR = ''
 
 DEST_DIRS = {
     'python_files': os.path.join(ROOT_DIR, 'python_files'),

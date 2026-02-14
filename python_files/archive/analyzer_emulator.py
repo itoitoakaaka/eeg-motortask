@@ -3,7 +3,7 @@ import os
 from scipy.signal import butter, lfilter
 
 # Configuration - Matching Analyzer workflow in `analyzer_standard_workflow.md`
-DATA_DIR = '/Users/itoakane/Research/Analyzer'
+DATA_DIR = 'Analyzer'
 SAMPLING_RATE = 2500
 RESOLUTION = 0.048828125
 CHANNEL_NAMES = ['C3', 'CP1', 'CP3', 'CP5', 'P3', 'EOG']
@@ -32,7 +32,7 @@ def get_markers(fid):
 
 import pandas as pd
 
-CSV_PATH = '/Users/itoakane/Research/mne/SEP_processed/measurements.csv'
+CSV_PATH = 'mne/SEP_processed/measurements.csv'
 
 def analyze_subject(fid):
     print(f"\n--- Emulating Analyzer Pipeline for {fid} ---")

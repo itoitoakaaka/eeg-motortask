@@ -9,8 +9,8 @@ from statsmodels.formula.api import ols
 from statsmodels.stats.anova import anova_lm
 
 # Settings
-csv_path = '/Users/itoakane/Research/mne/SEP_processed/measurements.csv'
-output_dir = '/Users/itoakane/Research/mne/SEP_processed/Figures_0205'
+csv_path = 'mne/SEP_processed/measurements.csv'
+output_dir = 'mne/SEP_processed/Figures_0205'
 os.makedirs(output_dir, exist_ok=True)
 
 df = pd.read_csv(csv_path)

@@ -7,10 +7,10 @@ import glob
 import sys
 
 # Add python_files to path if needed, though we only use mne/matplotlib
-sys.path.append('/Users/itoakane/Research/python_files')
+sys.path.append('python_files')
 
-RAW_DIR = '/Users/itoakane/Research/SEP_raw_temp'
-OUT_DIR = '/Users/itoakane/Research/SEP_raw_temp/raw_previews'
+RAW_DIR = 'SEP_raw_temp'
+OUT_DIR = 'SEP_raw_temp/raw_previews'
 
 if not os.path.exists(OUT_DIR):
     os.makedirs(OUT_DIR)

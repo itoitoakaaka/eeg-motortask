@@ -29,8 +29,8 @@ def set_prism_style():
 set_prism_style()
 
 # Settings
-csv_path = '/Users/itoakane/Research/SEP_raw_temp/SEP_processed/measurements.csv'
-output_dir = '/Users/itoakane/Research/SEP_raw_temp/Figures_PrismStyle'
+csv_path = 'SEP_raw_temp/SEP_processed/measurements.csv'
+output_dir = 'SEP_raw_temp/Figures_PrismStyle'
 os.makedirs(output_dir, exist_ok=True)
 
 df = pd.read_csv(csv_path)

@@ -10,7 +10,7 @@ plt.rcParams['axes.unicode_minus'] = False
 print("PPI Ratio水陸比較グラフを作成中...")
 
 # ===== データ読み込み =====
-sep_path = "/Users/itoakane/Research/SEP_raw_temp/SEP_processed/measurements.csv"
+sep_path = "SEP_raw_temp/SEP_processed/measurements.csv"
 sep_df = pd.read_csv(sep_path)
 
 # ID正規化
@@ -151,6 +151,6 @@ plt.tight_layout()
 plt.subplots_adjust(bottom=0.15)  # Pre/Postラベルのために下側を空ける
 
 # 保存
-output_path = "/Users/itoakane/Research/SEP_raw_temp/Figures/PPI_Ratio_Land_vs_Water.png"
+output_path = "SEP_raw_temp/Figures/PPI_Ratio_Land_vs_Water.png"
 plt.savefig(output_path, dpi=300, bbox_inches='tight')
 print(f"図を保存: {output_path}")

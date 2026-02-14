@@ -9,8 +9,8 @@ import time
 from scipy.signal import butter, lfilter
 
 # --- 基本設定 ---
-OUTPUT_DIR = '/Users/itoakane/Research/SEP_t'
-CSV_PATH = '/Users/itoakane/Research/SEP_temp/SEP_processed/measurements.csv'
+OUTPUT_DIR = 'SEP_t'
+CSV_PATH = 'SEP_temp/SEP_processed/measurements.csv'
 SAMPLING_RATE = 2500
 N_CHANNELS = 6
 CHANNEL_NAMES = ['C3', 'CP1', 'CP3', 'CP5', 'P3', 'EOG']

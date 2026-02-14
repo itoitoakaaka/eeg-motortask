@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 # Paths
-AVG_PATH = '/Users/itoakane/Research/Analyzer/id0010001_spSEP_US.eeg'
+AVG_PATH = 'Analyzer/id0010001_spSEP_US.eeg'
 SR = 2500
 
 # Load Data (2 channels, 550 points)

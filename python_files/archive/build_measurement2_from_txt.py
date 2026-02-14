@@ -4,9 +4,9 @@ import numpy as np
 import pandas as pd
 
 
-BASE = Path("/Users/itoakane/Research codex/Analyzer")
-SRC = Path("/Users/itoakane/Research codex/SEP_processed/measurements.csv")
-OUT_CSV = Path("/Users/itoakane/Research codex/SEP_processed/measurement2.csv")
+BASE = Path("Analyzer")
+SRC = Path("SEP_processed/measurements.csv")
+OUT_CSV = Path("SEP_processed/measurement2.csv")
 
 
 def parse_peak_txt(path: Path):

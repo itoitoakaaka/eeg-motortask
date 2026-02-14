@@ -1,7 +1,7 @@
 import re
 import numpy as np
 
-VMRK_PATH = '/Users/itoakane/Research/Analyzer/rawdata/id0010001.vmrk'
+VMRK_PATH = 'Analyzer/rawdata/id0010001.vmrk'
 
 def analyze_markers():
     markers = []

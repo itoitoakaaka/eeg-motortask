@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from scipy.signal import welch
 
 # Paths
-RAW_PATH = '/Users/itoakane/Research/Analyzer/rawdata/id0010001.eeg'
-FILT_PATH = '/Users/itoakane/Research/Analyzer/id0010001_Filters_3-1000_50_US.eeg'
+RAW_PATH = 'Analyzer/rawdata/id0010001.eeg'
+FILT_PATH = 'Analyzer/id0010001_Filters_3-1000_50_US.eeg'
 
 # Load parameters from VHDR (Parsed manually or assumed from previous cats)
 # Raw: 6 channels (C3, CP1, CP3, CP5, P3, EOG), Multiplexed, float32, 2500Hz

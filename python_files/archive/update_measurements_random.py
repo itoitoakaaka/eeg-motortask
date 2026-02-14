@@ -3,8 +3,8 @@ import numpy as np
 import os
 
 # Paths
-cp3_path = '/Users/itoakane/Research/SEP_result_all/CP3_analysis.xlsx'
-measurements_path = '/Users/itoakane/Research/SEP_temp/SEP_processed/measurements.csv'
+cp3_path = 'SEP_result_all/CP3_analysis.xlsx'
+measurements_path = 'SEP_temp/SEP_processed/measurements.csv'
 
 # Load Data
 print(f"Loading CP3 data from {cp3_path}...")

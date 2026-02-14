@@ -16,7 +16,7 @@ tgt_pp = 0.9843
 
 print(f"--- Simulating Analyzer Analysis for {ID} (pp30) ---")
 
-raw_path = f'/Users/itoakane/Research/Analyzer/{ID}.eeg'
+raw_path = f'Analyzer/{ID}.eeg'
 if not os.path.exists(raw_path):
     print("File not found.")
     exit()
@@ -47,7 +47,7 @@ for i in range(n_ch):
     temp = filtfilt(b_bp, a_bp, data[i])
     filt_data[i] = filtfilt(b_notch, a_notch, temp)
 
-vmrk_path = f'/Users/itoakane/Research/Analyzer/{ID}.vmrk'
+vmrk_path = f'Analyzer/{ID}.vmrk'
 markers = []
 with open(vmrk_path, 'r') as f:
     for line in f:

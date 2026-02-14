@@ -7,9 +7,9 @@ import re
 
 # Configuration
 ID = 'id0010001'
-RAW_EEG_PATH = f'/Users/itoakane/Research/Analyzer/{ID}.eeg'
-RAW_VMRK_PATH = f'/Users/itoakane/Research/Analyzer/{ID}.vmrk'
-CSV_PATH = '/Users/itoakane/Research/mne/SEP_processed/measurements.csv'
+RAW_EEG_PATH = f'Analyzer/{ID}.eeg'
+RAW_VMRK_PATH = f'Analyzer/{ID}.vmrk'
+CSV_PATH = 'mne/SEP_processed/measurements.csv'
 SAMPLING_RATE = 2500
 
 def load_generated_data():

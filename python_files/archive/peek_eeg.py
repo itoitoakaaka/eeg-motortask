@@ -2,7 +2,7 @@ import numpy as np
 import os
 
 fid = 'id0030002'
-path = f'/Users/itoakane/Research/Analyzer/{fid}.eeg'
+path = f'Analyzer/{fid}.eeg'
 n_ch = 6
 res = 0.048828125
 
@@ -21,7 +21,7 @@ print(f"Min Val (uV): {np.min(data):.2f}")
 print(f"RMS (uV): {np.std(data):.2f}")
 
 # Average CP3 (Ch 2)
-vmrk = f'/Users/itoakane/Research/Analyzer/{fid}.vmrk'
+vmrk = f'Analyzer/{fid}.vmrk'
 m_pos = []
 with open(vmrk, 'r') as f:
     for line in f:

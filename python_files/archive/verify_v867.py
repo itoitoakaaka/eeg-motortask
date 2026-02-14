@@ -16,7 +16,7 @@ TGT_PP30 = 0.7993
 
 print(f"--- Simulating Analyzer Analysis for {ID} (V8.67) ---")
 
-raw_path = f'/Users/itoakane/Research/Analyzer/{ID}.eeg'
+raw_path = f'Analyzer/{ID}.eeg'
 if not os.path.exists(raw_path):
     print("File not found.")
     exit()
@@ -51,7 +51,7 @@ b_notch, a_notch = butter_notch(NOTCH_FREQ, SAMPLING_RATE)
 filt_cp3 = filtfilt(b_bp, a_bp, data[2])
 filt_cp3 = filtfilt(b_notch, a_notch, filt_cp3)
 
-vmrk_path = f'/Users/itoakane/Research/Analyzer/{ID}.vmrk'
+vmrk_path = f'Analyzer/{ID}.vmrk'
 markers = {'A': [], 'B': []}
 
 with open(vmrk_path, 'r') as f:

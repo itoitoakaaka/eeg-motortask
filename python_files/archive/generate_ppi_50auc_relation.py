@@ -11,10 +11,10 @@ plt.rcParams['axes.unicode_minus'] = False
 print("PPI ratio変化量 vs Adaptation AUC 相関図を作成中...")
 
 # ===== 設定 =====
-output_dir = "/Users/itoakane/Research/SEP_raw_temp/Figures"
+output_dir = "SEP_raw_temp/Figures"
 output_filename = "Relation_AdaptAUC_vs_PPIchange.png"
-task_excel = "/Users/itoakane/Research/task/task.xlsx"
-sep_csv = "/Users/itoakane/Research/SEP_raw_temp/SEP_processed/measurements.csv"
+task_excel = "task/task.xlsx"
+sep_csv = "SEP_raw_temp/SEP_processed/measurements.csv"
 
 # ===== データ読み込み =====
 if not os.path.exists(output_dir):

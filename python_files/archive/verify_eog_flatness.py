@@ -1,7 +1,7 @@
 import numpy as np
 
 # Check id0030001 and id0030002
-files = ['/Users/itoakane/Research/Analyzer/id0030001.eeg', '/Users/itoakane/Research/Analyzer/id0030002.eeg']
+files = ['Analyzer/id0030001.eeg', 'Analyzer/id0030002.eeg']
 
 for path in files:
     fid = path.split('/')[-1].replace('.eeg', '')
