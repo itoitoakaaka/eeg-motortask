@@ -1,0 +1,21 @@
+# フォルダごと除外
+Analyzer/rawdata/
+Analyzer/rawdata2/
+SEP_processed/
+task/output_plots/
+logs/
+__pycache__/
+data/
+
+# 拡張子で除外
+*.eeg
+*.vhdr
+*.vmrk
+*.png
+*.xlsx
+*.txt
+*.pyc
+*.csv
+*.bin
+*.mat
+.DS_Store

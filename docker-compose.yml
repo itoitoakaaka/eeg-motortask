@@ -1,0 +1,7 @@
+services:
+  analysis:
+    build: .
+    volumes:
+      - .:/app
+    tty: true
+    stdin_open: true
