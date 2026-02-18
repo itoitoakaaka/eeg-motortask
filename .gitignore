@@ -1,21 +1,31 @@
-# フォルダごと除外
+# Research Data (Raw)
 Analyzer/rawdata/
 Analyzer/rawdata2/
-SEP_processed/
-task/output_plots/
-logs/
-__pycache__/
-data/
-
-# 拡張子で除外
 *.eeg
 *.vhdr
 *.vmrk
+
+# Outputs/Plots
+SEP_processed/
+task/output_plots/
 *.png
 *.xlsx
-*.txt
-*.pyc
-*.csv
-*.bin
 *.mat
+
+# System/Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
 .DS_Store
+
+# IDE Settings
+.cursor/
+.anthropic/
+# Exclude all data and logs
+*.txt
+*.csv
+logs/
+task/land/
+task/water/
